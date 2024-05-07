@@ -11,8 +11,8 @@ library(caret)
 library(KernelKnn)     
 
 ## choice of data set
-load("qsar.Rda") 
-load("airfoil.Rda") 
+load("DataSets/qsar.Rda") 
+load("DataSets/airfoil.Rda") 
 #data_set <- qsar
 data_set <- airfoil
 # Length  samples
